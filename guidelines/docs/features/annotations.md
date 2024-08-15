@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Function/Method Annotations
 
-Functions and class methos should be annotated whenever needed.
+Functions and class methods should be annotated whenever needed.
 
 Some of those annotations include:
 

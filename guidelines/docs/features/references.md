@@ -5,11 +5,11 @@ sidebar_position: 0
 # References and Pointers
 
 We tend not to use pointers, instead, the recomendation is to use C++ references.
-Pointers are a inheritance from C, the fact that C style pointer can be null and non constant is one of the major source
-of bugs in virtually any C and C++ project.
+Pointers are a inheritance from C, and the fact that the C style pointer can be null and non constant is one of the major source
+of bugs in virtually every C and C++ project.
 If the code allows, prefer to use references(&) instead of the C pointer(\*).
 
-If a reference its not possible to use a reference, a pointer is allowed but you need to manually check against null on its usage.
+If a reference its not possible, a pointer is allowed but you need to manually check against null on its usage.
 
 #### Example for a method receiving a pointer and a reference.
 

@@ -8,7 +8,7 @@ Do not include other headers whenever a forward declaration would suffice.
 When including header dependencies, you may introduce cyclic dependencies. Complete type definitions should be
 included in the relative `.cpp` file whenever possible.
 
-#### For example, we have the class Foo decalred in foo.h and we need a reference for Foo in class Bar:
+#### For example, we have the class Foo declared in foo.h, and we need a reference for Foo in class Bar:
 
 ```cpp
 // In foo.h

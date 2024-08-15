@@ -4,10 +4,10 @@ sidebar_position: 3
 
 # Preprocessor usage
 
-Usage of preprocessor macros should be avoided, the preprocessor is a inheritance from C, where the only "good" way for generic functions.
-In C++ theres templates, which are way more comprehensive.
+Usage of preprocessor macros should be avoided, the preprocessor is a inheritance from C, where it is the only "good" way for generic functions.
+In C++ we have templates which are way more comprehensive, use them if you need a generic function.
 
-The use of macros for constants must be avoided, constants must be defined as `constexpr` and enumerations must use `enum`.
+The use of macros for constants must be avoided, constants must be defined as a `constexpr`, enumerations must be an `enum`.
 
 #### Example:
 

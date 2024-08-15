@@ -5,7 +5,7 @@ sidebar_position: 3
 # Constants and Variable Types
 
 We adopted a rule to always use explicit variable size. So the usage of `int`, `unsigned int`, `long` and `short` is not advised.
-The reason for this is that, a `int` for example, is not always guranteed to be 32 bits. In a microcontroller like some versions of PIC is 16 bits.
+The reason for is, an `int` for example, is not always guranteed to be 32 bits. In a microcontroller like some versions of PIC, it is 16 bits.
 
 We opted to use a convention for integer types similar to the ones in the rust programming language, where a type begin with `i` for integer and `u` for unsigned.
 Even tho theres already a C standard header file for this, the standard way is quite verbose.
